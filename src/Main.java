@@ -1,5 +1,3 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         System.out.println("Esse é o Screen Match");
@@ -22,5 +20,9 @@ public class Main {
                 Ano de lançamento
                 """ + anoDeLancamento;
         System.out.println(sinopse);
+
+        // cast -> converte um valor em outro de double foi pra (int)
+        int classificacao = (int) (media / 2);
+        System.out.println(classificacao);
     }
 }
