@@ -11,7 +11,7 @@ public class Leitura {
         System.out.println("Qual o ano de lançamento?");
         int anoDeLancamento = leitura.nextInt();
 
-        System.out.println("Qual avaliação você da para o filme?");
+        System.out.println("Diga sua avaliação para o filme?");
         Double nota = leitura.nextDouble();
 
         System.out.println(filme);
