@@ -13,7 +13,7 @@ public class OutroLoop {
 
             if (nota != -1) {
                 mediaAvaliacao += nota; //recebe oq já tinha(mediaAvaliacao) + nota, está acumulando as notas
-                totalDeNotas++;
+                totalDeNotas = totalDeNotas +1;
             }
         }
 
